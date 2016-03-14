@@ -2,12 +2,12 @@ Create a program to for a store to keep track of its data - the customers, purch
 Allow user to:
 
 1.	Add a new Customer 
-2.  Remove a Customer 
+2.	Remove a new Customer 
 3.	Add a customer purchase(for a particular customer , a particular item) 
 4.	Return a Customer purchase  (for a particular customer, a particular PurchasedItem)
 5.	View Customer purchases (of a particular Customer) 
 6.	List the Names of Customers who have purchased a particular Item name
 7.	For each Customer, list how many times the Customer has purchased a particular item 
 8.	List which customers have purchased at least one item of a given item type 
-0.   exit
+0.  exit
 
