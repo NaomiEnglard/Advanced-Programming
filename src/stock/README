@@ -1,0 +1,11 @@
+Stock Application
+
+ 1. Record new stock
+ 2. Remove a stock
+ 3. Add price change of a Stock
+ 4. Get Historical Prices of a Stock
+ 5.Get Highest Price of a Stock
+ 6. Get Lowest Price of Stock
+ 7. Get Current Price of Stock
+ 8. List all Stock data
+ 0. EXIT
