@@ -1,4 +1,4 @@
-package myfirstprogram;
+package quiz;
 
 import java.io.File;
 
