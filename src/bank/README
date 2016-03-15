@@ -1,0 +1,8 @@
+Bank Application
+use arraylist to store information for a bank
+
+each customer has a unique id
+keep track of withdrawls , deposits , and balance for each customer
+
+The bank is made up of a list of customers
+Customer may use ATM machine to make withdrawls and deposits
