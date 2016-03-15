@@ -1,4 +1,4 @@
-package Customer;
+package customer;
 
 public class notFoundExceptioin extends Exception {
 	public notFoundExceptioin(){

@@ -1,4 +1,4 @@
-package Customer;
+package customer;
 /*
  * return purchase needs help -look more at gregorian calander how to send date propely
  * 5: get back an address oops
@@ -11,7 +11,7 @@ import java.util.GregorianCalendar;
 import java.util.Scanner;
 
 public class testCustomer {
-	public static void main(String[] args){
+	public static void main(String[] args) throws InvalidDataException {
 		//array list of customers
 		ArrayList<Customer> customerList= new ArrayList<Customer>();
 		int choice;
@@ -32,7 +32,12 @@ public class testCustomer {
 				System.out.println("the number already has an account try again");
 				break;
 			}
-			customerList.add(new Customer(first,last,number));
+			try {
+				customerList.add(new Customer(first,last,number));
+			} catch (InvalidDataException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 			System.out.printf("a customer with the name %S %S was added, the phone number is %S",first,last,number);
 		//	System.out.println("\n"+customerList.get(0).getPhoneNumber());
 			break;
