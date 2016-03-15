@@ -1,0 +1,5 @@
+Given two files containing school supplies
+read each file into an array, sort it , and merge the two files to create a single list of all the supplies (no duplicates)
+
+Find overlap in each list
+Display supplies unique to one list
